@@ -14,7 +14,7 @@ def prime?(num)
   n = Math.sqrt(num)
   
   while i <= n+1
-    if( num % n == 0 )
+    if( num % i == 0 )
       return false;
     end
     i+=2
