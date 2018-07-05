@@ -5,7 +5,7 @@ def prime?(num)
     return true
   end
   if num %2 ==0
-    return true
+    return false
   end
   i = 3
   n = Math.sqrt(num)
