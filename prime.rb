@@ -10,7 +10,7 @@ def prime?(num)
   i = 3
   n = Math.sqrt(num)
   
-  while i < n
+  while i <= n+1
     if( num % n == 0 )
       return false;
     end
